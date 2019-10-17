@@ -7,9 +7,8 @@
   font-family: helvetica, arial, sans-serif;
   color: white;
   grid-template-areas:
-  "hover"
-  "disabled"
-  ;
+    "hover"
+    "disabled";
   height: 500px;
 }
 .hoverMe {
@@ -20,10 +19,11 @@
   text-align: center;
   height: 50px;
   /* Add the css property transition here! */
-
+  transition: 0.3s;
 }
 /* active state */
 .hoverMe:hover {
   /* Add your hover state css here. */
 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
